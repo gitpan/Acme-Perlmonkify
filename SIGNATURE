@@ -1,0 +1,33 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.39.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 51ab5fef2440e1eca81e8f9be25cd4eb0807b144 Changes
+SHA1 93c6dee260ce3ef7eaa19decef45e7228fba906d MANIFEST
+SHA1 29e09c256aafdecad5128d38cbb1ea07dc73c07d MANIFEST.SKIP
+SHA1 760e24c04034f28aeb95cd66351f4e1e1da8afb4 META.yml
+SHA1 48d41794e6c713ae31cd16947ff6539e5873e221 Makefile.PL
+SHA1 69085324a83404529f1bde6069d7ee7ab09003d9 README
+SHA1 74c1c0a28f9e673033065fc7999abf1270b26a7c lib/Acme/Perlmonkify.pm
+SHA1 ea80267d3b1c8bb15e10834279968b8a5a4b18c6 t/00signature.t
+SHA1 1bae9569c9537d1b4b54366741fc33b61f6fefb6 t/01pod.t
+SHA1 336f232f5a81dcab2aa2015e0b22e303f9d346f2 t/10basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.6 (GNU/Linux)
+
+iD8DBQFCAJF/ejb/5debeXcRAmX1AKDGyVGNk6E1s62e3+uLEEH+bHk2cwCfdpg6
+GMAKHVsIGkjCpdDyCW+24cI=
+=5ckm
+-----END PGP SIGNATURE-----

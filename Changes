@@ -1,0 +1,8 @@
+Revision history for Perl extension Acme::Perlmonkify.
+
+0.01  Wed Jun  9 09:54:44 2004
+	- original version; created by h2xs 1.23 with options
+		-n Acme::Perlmonkify -X
+
+0.02  Tue Feb  2          2005
+        - Standardized the module, updated my email address

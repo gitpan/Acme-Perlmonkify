@@ -1,0 +1,12 @@
+^Makefile$
+^MANIFEST.(?:bak|old)$
+^\.
+^blib\b
+^pm_to_blib$
+CVS
+\.tar$
+\.tar\.gz$
+~$
+\.tmp$
+^\#
+\#$
